@@ -56,7 +56,7 @@ div#menu-hamburger .line {
         width: 50vw;
         height: 92vh;
         flex-direction: column;
-        opacity: 0;
+        display: none;
         transition: 500ms ease;
     }
 
@@ -65,7 +65,7 @@ div#menu-hamburger .line {
     }
 
     nav#navbar ul.active{
-        opacity: 1;
+        display: flex;
     }
 }
 
