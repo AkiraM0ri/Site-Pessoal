@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const exphbs = require('express-handlebars').engine;
 const http = require('http'), https = require('https');
-
+const fs = require('fs')
 const securePort = process.argv[2] == '-dev' ? 3001 : 443;
 const unsecurePort = process.argv[2] == '-dev' ? 3000 : 80;
 
