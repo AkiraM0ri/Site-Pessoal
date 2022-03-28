@@ -71,7 +71,7 @@ div#descricao #meucv {
     border-radius: .5rem;
     transition: 300ms ease;
     cursor: pointer;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -218,13 +218,14 @@ section#minhas_skills div#skill_box div.tecnologia p {
 
 /* contato */
 section#contate_me {
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 8vh;
     gap: 6rem;
+    padding-bottom: 8vh;
 }
 
 section#contate_me h1{
@@ -272,6 +273,19 @@ section#contate_me div#meios_contato .contatos p {
 
 section#contate_me div#meios_contato .contatos a {
     color: var(--roxoprincipal);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    animation:1s glow infinite alternate ;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 0 transparent;
+    }
+    to {
+        text-shadow: 0 0 .1vw var(--coranaloga2);
+    }
 }
 
 /* projetos */
@@ -327,6 +341,7 @@ section#projetos .wrapper .wrapper_desc {
     flex-direction: column;
     gap: 1rem;
 }
+
 
 /* mobile */
 
