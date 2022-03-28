@@ -4,7 +4,7 @@ const exphbs = require('express-handlebars').engine;
 const http = require('http'), https = require('https');
 
 const securePort = process.argv[2] == '-dev' ? 3001 : 443;
-const unsecurePort = process.argv[2] == '-dev' 3000 : 80;
+const unsecurePort = process.argv[2] == '-dev' ? 3000 : 80;
 
 // Certificate
 const credentials = {
