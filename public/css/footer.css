@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .6rem;
+    height: 8rem;
+    background: var(--corbranca);
+    bottom: 0;
+}
+
+footer ul {
+    display: flex;
+    gap: .3rem;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a img{
+    height: 2rem;
+}

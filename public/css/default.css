@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --roxoanalogo: #5D22B3;
+    --coranaloga: #3320A8;
+    --coranaloga2: #AC22B3;
+    --roxoprincipal: #76259B;
+    --corbranca: #fff;
+    --corpreta: #222;
+    --corsombra: rgb(206, 206, 206);
+    --paragrafos: #666;
+    --icones: rgb(153, 153, 153);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
