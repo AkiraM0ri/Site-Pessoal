@@ -27,10 +27,6 @@ app.get('/', (req,res)=>{
     res.render("main");
 });
 
-app.listen(port, ()=>{
-    console.log(`aberto na porta ${port}`);
-});
-
 // Starting both http & https servers
 const httpServer = http.createServer(app), httpsServer = https.createServer(credentials, app)
 
