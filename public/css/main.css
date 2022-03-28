@@ -316,7 +316,7 @@ section#projetos h1#titulo_projetos::after {
 }
 
 section#projetos .wrapper {
-    height: 40rem;
+    height: fit-content;
     width: 30rem;
     background-color: var(--corbranca);
     border-radius: 2rem;
@@ -326,7 +326,7 @@ section#projetos .wrapper {
 
 section#projetos .wrapper .wrapper_img {
     width: 30rem;
-    height: 20rem;
+    height: fit-content;
     object-fit: cover;
     border-radius: 2rem 2rem 0 0;
 }
