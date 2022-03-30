@@ -3,10 +3,6 @@
     width: .8rem;
 }
 
-body {
-    text-transform: uppercase;
-}
-
 ::-webkit-scrollbar-thumb {
     background: var(--roxoanalogo);
 }
